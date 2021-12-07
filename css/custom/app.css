@@ -1,0 +1,273 @@
+.container {
+    width: 90%;
+    max-width: 1100px !important;
+    margin: auto;
+}
+.main-profile {
+    background-color: #404EED;
+    padding: 40px;
+    text-align: center;
+}
+
+.main-profile .photo-wrapper img {
+    width: 50%;
+    max-width: 250px;
+}
+
+.main-profile .name-wrapper {
+    padding-top: 20px;
+}
+
+.name-wrapper h1 {
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin: 0;
+    color: white;
+    letter-spacing: 3px
+}
+
+.title-wrapper {
+    padding-top: 20px;
+
+}
+
+.title-wrapper h3 {
+    font-size: 1.2em !important;
+    color: white;
+}
+
+.button-wrapper {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.btn-circle {
+    border-radius: 40px;
+}
+
+.btn-resume {
+    min-width: 150px;
+    background-color: white;
+    height: 40px;
+}
+
+.btn-resume:hover {
+    background-color: #d3d9df;
+}
+
+.btn-contact {
+    min-width: 150px;
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+.about-me {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-me .title {
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.about-me .content {
+    color: #5a6268;
+    font-family: sans-serif;
+}
+
+.about-me .sub-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me ul {
+    padding-left: 10px !important;
+    list-style-type: circle;
+}
+
+.expertise {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: #d3d9df;
+}
+
+.expertise .title {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.expertise p {
+    margin-bottom: 0;
+}
+
+.expertise .duration-wrapper {
+    background-color: #1c7430;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.expertise .duration {
+    font-size: 16px;
+    margin: 0;
+
+}
+
+.section-name {
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.expertise .content-row {
+    background-color: floralwhite;
+    margin-top: 20px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.expertise .content-wrapper {
+    padding: 30px !important;
+}
+
+.expertise .content-row:hover {
+    opacity: 0.9;
+}
+
+.expertise .duration {
+    margin-top: 30px;
+}
+
+.expertise .duration-wrapper {
+
+}
+.expertise .degree {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.expertise .title {
+
+}
+
+.expertise .college {
+    font-weight: bold;
+    font-size: 18px;
+    color: #5a6268;
+    margin-top: 10px;
+}
+
+.expertise .professor {
+    color: #1c7430;
+}
+
+.expertise .content-1 {
+    padding: 10px 10px 0 0;
+}
+
+.radio-label {
+    padding-left: 1.25em !important;
+}
+
+#hourly_rate_wrapper {
+    transition: 0.4ms;
+    display: none;
+}
+
+.education {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: whitesmoke;
+}
+
+.education p {
+    margin-bottom: 0;
+}
+
+.education .title {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.education .duration-wrapper {
+    background-color: #58b3c0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.education .duration {
+    font-size: 16px;
+    margin: 0;
+
+}
+
+
+.section-name {
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.education .content-row {
+    background-color: floralwhite;
+    margin-top: 20px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.education .content-wrapper {
+    padding: 30px !important;
+}
+
+.education .content-row:hover {
+    opacity: 0.9;
+}
+
+.education .duration {
+    margin-top: 30px;
+}
+
+.education .duration-wrapper {
+
+}
+.education .degree {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.education .title {
+
+}
+
+.education .course {
+    font-weight: bold;
+    font-size: 18px;
+    color: #5a6268;
+    margin-top: 16px;
+}
+
+.education .professor {
+    color: #1c7430;
+}
+
+.education .content-1 {
+    padding: 10px 10px 0 0;
+}
